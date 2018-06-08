@@ -1,0 +1,57 @@
+JavaScript
+  -open priject
+  -npm instal
+  -terminal: todo
+  -име на базата: congif,congif
+	Конфигурация: note JS
+		-javascript file: bin www
+	console.log
+  -започваш от модела!
+
+PHP
+	-open 
+	-composer install
+	-terminal:todo
+	-entity-трием файла project
+	-пишем в терминала: php bin/console doctrine:generate:entity
+	-пишем : AppBundle:Project | Enter | Enter | Почвам да пиша полетата
+		-title
+			-text
+			-f
+			-f
+		-budget
+			-integer
+			-f
+			-f
+	-пишем контолера
+	-за сетване- php script - arguments:server:run , file:bin\console
+	-Създаваш базата!
+		-терминала:php bin/console doctrine:database:create -- if-not-exists (ако дава грешно я правиш ръчно)
+			   php bin/console doctrine:schema:update --force
+
+
+Java
+	-IMPORT project
+	-Maven
+	- terminal: todo
+	-почваш от ентити
+	-generete - getter and setter,constructor with all,contructor with non
+	-binng model - всичко без id - getter and setter,constructor with all,contructor with non
+	- почваш контролера
+	-за сетване: spring boot: избираш маинк клас(ProjectRiderAplication(или както там се казва)
+
+
+C#
+	-отваряме solutiona през папката
+	-menu:view:task list(cnt+w+t
+	-започваш от project
+	-после controller	
+
+
+
+
+
+
+
+
+
