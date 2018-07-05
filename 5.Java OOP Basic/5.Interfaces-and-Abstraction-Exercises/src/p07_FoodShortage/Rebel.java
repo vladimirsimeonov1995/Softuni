@@ -9,6 +9,8 @@ public class Rebel implements Buyer{
     private String group;
     private int foodEaten;
 
+
+
     public Rebel(String name, int age, String group) {
         this.name = name;
         this.age = age;
