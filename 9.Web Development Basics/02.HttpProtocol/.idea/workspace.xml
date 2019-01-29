@@ -11,21 +11,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="400">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getResponse#0;class#Application#0" />
-                <element signature="method#getResponseHeaders#0;class#Application#0" />
-                <element signature="method#getOKBody#0;class#Application#0" />
-                <element signature="method#getRequestParams#0;class#Application#0" />
-                <element signature="method#getRequestHeaders#0;class#Application#0" />
-                <element signature="method#getRequestHead#0;class#Application#0" />
                 <element signature="method#getRequest#0;class#Application#0" />
-                <element signature="method#getValidUrls#0;class#Application#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/impls/HttpResponseImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="method#setStatusCode#1;class#HttpResponseImpl#0" />
+                <element signature="method#getOKBody#0;class#HttpResponseImpl#0" />
+                <element signature="method#setContent#0;class#HttpResponseImpl#0" />
+                <element signature="e#3371#3372#0" expanded="true" />
+                <element signature="e#3404#3405#0" expanded="true" />
+                <element signature="method#setHeaders#0;class#HttpResponseImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/contracts/HttpResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/impls/HttpRequestImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="99" column="88" selection-start-line="99" selection-start-column="88" selection-end-line="99" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#HttpRequestImpl#0;class#HttpRequestImpl#0" />
+                <element signature="e#1389#1390#0" expanded="true" />
+                <element signature="e#1427#1428#0" expanded="true" />
+                <element signature="method#setHeaders#0;class#HttpRequestImpl#0" />
+                <element signature="e#2587#2588#0" expanded="true" />
+                <element signature="e#2615#2616#0" expanded="true" />
+                <element signature="method#toString#0;class#HttpRequestImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/contracts/HttpRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,12 +90,25 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/java/Main.java" />
         <option value="$PROJECT_DIR$/src/app/Main.java" />
+        <option value="$PROJECT_DIR$/src/app/impls/HttpResponse.java" />
+        <option value="$PROJECT_DIR$/src/app/contracts/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/app/contracts/HttpResponse.java" />
         <option value="$PROJECT_DIR$/src/app/Application.java" />
+        <option value="$PROJECT_DIR$/src/app/impls/HttpRequestImpl.java" />
+        <option value="$PROJECT_DIR$/src/app/impls/HttpResponseImpl.java" />
       </list>
     </option>
   </component>
@@ -56,32 +126,47 @@
         <subPane>
           <expand>
             <path>
-              <item name="HttpProtocol" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HttpProtocol" type="462c0819:PsiDirectoryNode" />
+              <item name="02.HttpProtocol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02.HttpProtocol" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HttpProtocol" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HttpProtocol" type="462c0819:PsiDirectoryNode" />
+              <item name="02.HttpProtocol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02.HttpProtocol" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HttpProtocol" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HttpProtocol" type="462c0819:PsiDirectoryNode" />
+              <item name="02.HttpProtocol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02.HttpProtocol" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02.HttpProtocol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02.HttpProtocol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02.HttpProtocol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02.HttpProtocol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="impls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548714678600" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548802006977" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -95,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Application" />
       <module name="HttpProtocol" />
@@ -120,12 +205,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Application" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -141,64 +226,114 @@
       <option name="presentableId" value="Default" />
       <updated>1548708685879</updated>
       <workItem from="1548708691206" duration="5965000" />
+      <workItem from="1548796617121" duration="5376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5965000" />
+    <option name="totallyTimeSpent" value="11341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11567164" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/app/contracts/HttpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getResponse#0;class#Application#0" />
-            <element signature="method#getResponseHeaders#0;class#Application#0" />
-            <element signature="method#getOKBody#0;class#Application#0" />
-            <element signature="method#getRequestParams#0;class#Application#0" />
-            <element signature="method#getRequestHeaders#0;class#Application#0" />
-            <element signature="method#getRequestHead#0;class#Application#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/contracts/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#getRequest#0;class#Application#0" />
-            <element signature="method#getValidUrls#0;class#Application#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/impls/HttpRequestImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="99" column="88" selection-start-line="99" selection-start-column="88" selection-end-line="99" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#HttpRequestImpl#0;class#HttpRequestImpl#0" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="method#setHeaders#0;class#HttpRequestImpl#0" />
+            <element signature="e#2587#2588#0" expanded="true" />
+            <element signature="e#2615#2616#0" expanded="true" />
+            <element signature="method#toString#0;class#HttpRequestImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/impls/HttpResponseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="method#setStatusCode#1;class#HttpResponseImpl#0" />
+            <element signature="method#getOKBody#0;class#HttpResponseImpl#0" />
+            <element signature="method#setContent#0;class#HttpResponseImpl#0" />
+            <element signature="e#3371#3372#0" expanded="true" />
+            <element signature="e#3404#3405#0" expanded="true" />
+            <element signature="method#setHeaders#0;class#HttpResponseImpl#0" />
           </folding>
         </state>
       </provider>
