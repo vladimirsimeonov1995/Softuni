@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:include="~{fragments/head}"></th:block>
+</head>
+<body>
+
+<div class="container-fluid">
+    <header>
+        <th:block th:include="~{fragments/navbar}"></th:block>
+    </header>
+
+
+    <main>
+        <div class="container mt-4">
+            <h1>All Viruses</h1>
+            <hr/>
+            <div class="row">
+                <div class="col col-md-2"><b>#</b></div>
+                <div class="col col-md-2"><b>Name</b></div>
+                <div class="col col-md-2"><b>Magnitude</b></div>
+                <div class="col col-md-2"><b>Released On</b></div>
+            </div>
+            <hr/>
+            <div th:object="${viewModels}" th:each="model : ${viewModels}">
+                <div class="row">
+                    <div class="col col-md-2">
+                        <span th:text="${model.id}"></span>
+                    </div>
+                    <div class="col col-md-2">
+                        <span th:text="${model.name}"></span>
+                    </div>
+                    <div class="col col-md-2">
+                        <span th:text="${model.magnitude.name()}"></span>
+                    </div>
+                    <div class="col col-md-2">
+                        <span th:text="${model.releasedOn}"></span>
+                    </div>
+                    <div class="col col-md-2">
+                        <a class="btn btn-outline-secondary" th:href="@{/viruses/edit/{id}(id=${model.id})}">Edit</a>
+                    </div>
+                    <div class="col col-md-2">
+                        <form th:action="@{/viruses/show/{id}(id=${model.id})}" method="post">
+                            <button type="submit" class="btn btn-outline-secondary">Delete</button>
+                        </form>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
